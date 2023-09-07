@@ -1,26 +1,26 @@
-naam = input("Wat is je naam? ")
 cijfer = int(input("Welk cijfer heb je gekregen? "))
+omschrijving = ""
 if cijfer == 10:
-    print("Uitmuntend")
+    omschrijving = "Uitmuntend"
 if cijfer == 9:
-    print("Zeer goed")
+    omschrijving = "Zeer goed"
 if cijfer == 8:
-    print("Goed")
+    omschrijving = "Goed"
 if cijfer == 7:
-    print("Ruim voldoende")
+    omschrijving = "Ruim voldoende"
 if cijfer == 6:
-    print("Voldoende")
+    omschrijving = "Voldoende"
 if cijfer == 5:
-    print("Bijna voldoende")
+    omschrijving = "Bijna voldoende"
 if cijfer == 4:
-    print("Onvoldoende")
+    omschrijving = "Onvoldoende"
 if cijfer == 3:
-    print("Gering")
+    omschrijving = "Gering"
 if cijfer == 2:
-    print("Slecht")
+    omschrijving = "Slecht"
 if cijfer == 1:
-    print("Zeer slecht")
+    omschrijving = "Zeer slecht"
 if cijfer >= 6 <= 10:
-    print("Gefeliciteerd, "+ str(naam) +" je resultaat is een " + str(cijfer))
+    omschrijving = "Gefeliciteerd, "+ str(omschrijving) +" je resultaat is een " + str(cijfer)
 else:
     print("Dit kan ik niet omzetten.")
