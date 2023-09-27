@@ -79,25 +79,37 @@
 # Opdracht 8:
 # Gegeven is:
 
-lijst_eten = ['Onze menukaart:','appel', 'pannenkoek', 'kiwi', 'hamburger', 'granaatappelvlaaitaart']
-# for menu in range(len(lijst_eten)):
-#     print(lijst_eten[menu])
-# a: print een eenvoudig menu met de volgende layout:
+# lijst_eten = ['Onze menukaart:','appel', 'pannenkoek', 'kiwi', 'hamburger', 'granaatappelvlaaitaart']
+# # for menu in range(len(lijst_eten)):
+# #     print(lijst_eten[menu])
+# # a: print een eenvoudig menu met de volgende layout:
 
-# Onze menukaart:
-# appel
-# pannenkoek
-# kiwi
-# hamburger 
+#  Onze menukaart:
+#  appel
+#  pannenkoek
+#  kiwi
+#  hamburger 
 
 # b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal. 
-langste_string = 0
-for woord in range(1, len(lijst_eten)):
-    if len(lijst_eten[woord]) > langste_string:
-        langste_string = len(lijst_eten[woord])
-        grootste_eten = lijst_eten[woord]
+# langste_string = 0
+# for woord in range(1, len(lijst_eten)):
+#     if len(lijst_eten[woord]) > langste_string:
+#         langste_string = len(lijst_eten[woord])
+#         grootste_eten = lijst_eten[woord]
 
-print("Het gerecht met de langste naam is: ", grootste_eten," met ", langste_string, " letters.")
-# 
-#  # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). 
-# # test je code door extra eten toe te voegen met een nog langere naam.
+# print("Het gerecht met de langste naam is: ", grootste_eten," met ", langste_string, " letters.")
+
+#  Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). 
+#  test je code door extra eten toe te voegen met een nog langere naam.
+
+
+# Opdracht 9:
+# Schrijf een programma wat de gebruiker vraagt een cijfer in te voeren via de terminal.
+# Dit blijf je herhalen totdat de gebruiker een getal tussen 0 en 10 heeft ingevoerd.
+# Voert de gebruiker iets anders in dan een getal: geef een foutmelding.
+
+opgegeven_getal = 11
+while opgegeven_getal < 0 or opgegeven_getal > 10:
+    opgegeven_getal = int(input("Geef een getal op."))
+    if opgegeven_getal < 0 or opgegeven_getal > 10:
+        print("Dit is niet een van de getallen dat ik wil hebben.")
