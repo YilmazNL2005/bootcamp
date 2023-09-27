@@ -1,0 +1,20 @@
+# Opdracht 1 (schrijf je antwoord als commentaar in een py file):
+
+
+# a: Waarom is Visual Studio Code handiger voor software development dan bijvoorbeeld Notepad (kladblok)? Noem de voordelen!
+# Antwoord: Met Vsc kan je fouten of errors veel sneller ontdekken dan in kladblok. 
+# In kladblok kan je je geschreven code niet testen en Vsc kan dat wel.
+
+# b: Waarom is het goed dat je de commits van jouw code pusht naar github.com?
+# Antwoord: Zodat je opdrachten/werk veilig opgeslagen is en altijd en overal terug kunt halen. 
+# Daarnaast is het handig voor de docenten want zij kunnen dan de voortgang van je werk bekijken en volgen.
+# Nog een voordeel. Stel je laptop gaat kapot met al je bestanden met code, dan kun je dat altijd terugkrijgen van Github.
+
+
+# Opdracht 2:
+# Maak het commentaar af.
+#   a = 5  # dit is een voorbeeld van het datatype: Int
+#   b = 10.5# dit is een voorbeeld van het datatype: Float
+#   c = "Hallo wereld" # dit is een voorbeeld van het datatype: String
+
+
