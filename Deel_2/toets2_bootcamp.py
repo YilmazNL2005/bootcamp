@@ -108,8 +108,20 @@
 # Dit blijf je herhalen totdat de gebruiker een getal tussen 0 en 10 heeft ingevoerd.
 # Voert de gebruiker iets anders in dan een getal: geef een foutmelding.
 
-opgegeven_getal = 11
-while opgegeven_getal < 0 or opgegeven_getal > 10:
-    opgegeven_getal = int(input("Geef een getal op."))
-    if opgegeven_getal < 0 or opgegeven_getal > 10:
-        print("Dit is niet een van de getallen dat ik wil hebben.")
+# opgegeven_getal = 11
+# while opgegeven_getal < 0 or opgegeven_getal > 10:
+#     opgegeven_getal = int(input("Geef een getal op."))
+#     if opgegeven_getal < 0 or opgegeven_getal > 10:
+#         print("Dit is niet een van de getallen dat ik wil hebben.")
+
+
+# Opdracht 10:
+# repareer de volgende code:
+MAX = 20
+getal = int(input("Voer een getal in"))
+if getal >> MAX:
+    input(f"Het getal is groter dan {MAX}")
+elif getal << MAX:
+    input(f"Het getal is kleiner dan {MAX}")
+else:
+    input(f"Het getal is gelijk aan {MAX}")
