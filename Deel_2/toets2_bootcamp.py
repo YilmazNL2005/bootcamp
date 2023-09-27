@@ -18,3 +18,11 @@
 #   c = "Hallo wereld" # dit is een voorbeeld van het datatype: String
 
 
+# Opdracht 3:
+# Schrijf code die de waarden van a en b omwisselt. Gebruik daarvoor een extra variabele.
+a = 5
+b = 10
+# voeg jouw code toe…
+wissel_waarden = a,b = b,a
+# Controleer met onderstaande code of de waarden correct zijn verwisseld
+print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
