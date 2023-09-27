@@ -20,9 +20,20 @@
 
 # Opdracht 3:
 # Schrijf code die de waarden van a en b omwisselt. Gebruik daarvoor een extra variabele.
-a = 5
-b = 10
+# a = 5
+# b = 10
 # voeg jouw code toe…
-wissel_waarden = a,b = b,a
+# wissel_waarden = a,b = b,a
 # Controleer met onderstaande code of de waarden correct zijn verwisseld
-print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
+# print(f"a = {a}, b = {b}") # Moet "a = 10 b = 5" printen
+
+
+# Opdracht 4:
+
+# Los de problemen op (zonder exception handling).
+leeftijd = int(input("Hoe oud ben je?"))
+
+print(f"Dan duurt het nog ongeveer {67 - leeftijd} jaar voordat je met pensioen mag!")
+# Is 18 ingevuld? Dan zie je op de terminal: Dan duurt het nog ongeveer 49 jaar voordat je met pensioen mag!
+
+
