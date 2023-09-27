@@ -54,17 +54,23 @@
 
 #Opdracht 6:
 # Maak de volgende code af:# Je moet bijbetalen als je over je minuten of je GB's heen gaat en geen onbeperkt abonnement hebt.
-AANTAL_GB = 20 # Aantal GB data in je bundel
-AANTAL_MINUTEN = 200 # Aantal belminuten in je bundel
-ONBEPERKT = False # test ook met True
+# AANTAL_GB = 20 # Aantal GB data in je bundel
+# AANTAL_MINUTEN = 200 # Aantal belminuten in je bundel
+# ONBEPERKT = False # test ook met True
 
-aantal_minuten_gebeld = int(input("Hoeveel minuten heb je gebeld?"))
-aantal_GB_internet = int(input("Hoeveel GB's heb je gebruikt?"))
-if ONBEPERKT == True:
-    print("Je hoeft je nergens druk om te maken, je hebt onbeperkt GB en bellen.")
-elif aantal_minuten_gebeld > AANTAL_MINUTEN or aantal_GB_internet > AANTAL_GB:
-    print("Let op: je moet bijbetalen!")
-else:
-    print("Niet aan de hand gebruik je mobiel lekker verder!")
+# aantal_minuten_gebeld = int(input("Hoeveel minuten heb je gebeld?"))
+# aantal_GB_internet = int(input("Hoeveel GB's heb je gebruikt?"))
+# if ONBEPERKT == True:
+#     print("Je hoeft je nergens druk om te maken, je hebt onbeperkt GB en bellen.")
+# elif aantal_minuten_gebeld > AANTAL_MINUTEN or aantal_GB_internet > AANTAL_GB:
+#     print("Let op: je moet bijbetalen!")
+# else:
+#     print("Niet aan de hand gebruik je mobiel lekker verder!")
 # Ik kan ook de if op regel 63 met de print van regel 64 weghalen en 
 # de else van regel 67 een elif maken die checkt of het een onbeperkt abonnement is of niet plus of je niet teveel verbruikt hebt.
+
+
+#Opdracht 7:
+# Print onder elkaar de getallen 1-250 met max 2 regels code.
+for getallen in range(1,251):
+    print(getallen)
