@@ -72,5 +72,32 @@
 
 #Opdracht 7:
 # Print onder elkaar de getallen 1-250 met max 2 regels code.
-for getallen in range(1,251):
-    print(getallen)
+# for getallen in range(1,251):
+#     print(getallen)
+
+
+# Opdracht 8:
+# Gegeven is:
+
+lijst_eten = ['Onze menukaart:','appel', 'pannenkoek', 'kiwi', 'hamburger', 'granaatappelvlaaitaart']
+# for menu in range(len(lijst_eten)):
+#     print(lijst_eten[menu])
+# a: print een eenvoudig menu met de volgende layout:
+
+# Onze menukaart:
+# appel
+# pannenkoek
+# kiwi
+# hamburger 
+
+# b: Schrijf code die ervoor zorgt dat alleen het eten met de langste naam wordt geprint in de terminal. 
+langste_string = 0
+for woord in range(1, len(lijst_eten)):
+    if len(lijst_eten[woord]) > langste_string:
+        langste_string = len(lijst_eten[woord])
+        grootste_eten = lijst_eten[woord]
+
+print("Het gerecht met de langste naam is: ", grootste_eten," met ", langste_string, " letters.")
+# 
+#  # Let op: je moet in de code eerst bepalen welk eten de langste naam heeft (en dus niet hardcoded 1 voor de index gebruiken). 
+# # test je code door extra eten toe te voegen met een nog langere naam.
